@@ -27,7 +27,7 @@ chmod +x build.sh && ./build.sh <Your resolution, for example: 1920x1080> <Your 
 > **Note!** Replace everything in <>, including the numbers, with your number.
 
 ### Installation
-I recommend using the included `install.sh` script. However, if you want to do this manually, make sure the GRUB_GFXMODE parameter exactly matches the resolution of the selected theme.
+I recommend using the included `install.sh` script (It is located in the build folder when you have compiled your custom theme using `build.sh`). However, if you want to do this manually, make sure the GRUB_GFXMODE parameter exactly matches the resolution of the selected theme.
 
 ### Building for your resolution
 Use the build.sh script. You will need the following programs:
